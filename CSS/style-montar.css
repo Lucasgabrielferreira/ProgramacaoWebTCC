@@ -242,11 +242,12 @@ h1 {
 }
 
 .produtos section {
-  height: 800px;
+  /* height: 700px; */
   display: grid;
   gap: 10px;
   grid-template-columns: 330px 330px 330px;
   align-items: center;
+  align-content: space-around;
   justify-content: space-around;
 }
 
@@ -438,8 +439,8 @@ h1 {
   color: #fff;
   border-radius: 5px;
   position: absolute;
-  top: 170px;
-  left: 10px;
+  top: 200px;
+  left: 20px;
   cursor: pointer;
 }
 
@@ -607,7 +608,7 @@ h1 {
   .home {
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
     display: flex;
   }
   .home-text h1 {
@@ -693,7 +694,7 @@ h1 {
   .home {
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
     display: flex;
   }
   .home-text {
@@ -767,6 +768,10 @@ h1 {
   }
   .lista-itens img {
     height: 60px;
+  }
+  .excluirProds {
+    top: 155px;
+    left: 10px;
   }
 
   .btns-final div,
