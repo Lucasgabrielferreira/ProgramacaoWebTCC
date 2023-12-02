@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 18px 40px;
   box-shadow: 0 0.1rem 0.5rem #ccc;
   width: 100%;
