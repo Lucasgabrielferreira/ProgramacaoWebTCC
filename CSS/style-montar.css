@@ -773,6 +773,9 @@ h1 {
     top: 155px;
     left: 10px;
   }
+  .itens-selecionados {
+  font-size: 0.6rem;
+}
 
   .btns-final div,
   .btns-final button {
