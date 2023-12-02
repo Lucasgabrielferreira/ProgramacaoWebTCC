@@ -770,16 +770,17 @@ h1 {
     padding: 3rem 3rem; 
     margin-bottom: 20px; /* Espaçamento entre os produtos */
     flex: 1 1 300px; /* Definir a largura máxima dos produtos e permitir a quebra para a próxima linha */
-    max-width: calc(10%  20px);
-    
+    max-width: calc(10%  20px); 
   }
 
   .produto {
     text-align: center;
     margin-bottom: 20px; 
-    margin-right: 30px;
+    margin-right: 25px;
   }
-
+  .produtos h1{
+    font-size:50px;
+  }
   .produto img {
     max-width: 100%;
     height: auto;
