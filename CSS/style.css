@@ -591,6 +591,7 @@ section.module.parallax {
 @media (max-width:785px) {
     .navigation {
         padding: 18px 20px;
+        justify-content: space-around;
     }
 
     .menu {
