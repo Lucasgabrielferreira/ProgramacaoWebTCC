@@ -104,6 +104,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .menu {
+    font-family: 'Ramabhadra', sans-serif;
     cursor: pointer;
     display: none;
 }
@@ -135,12 +136,14 @@ body::-webkit-scrollbar-thumb {
     padding: 0px 10%;
 }
 
-.home-text {
+.home- {
     max-width: 37rem;
 }
-
-.home-text .text-h4 {
-    font-size: 1.5rem;
+.home-text .p-home{
+    font-size: 2.0rem
+}
+.home-text .text-h2 {
+    font-size: 2.8rem;
     color: var(--blue);
     margin-bottom: 1rem;
 }
@@ -239,7 +242,9 @@ body::-webkit-scrollbar-thumb {
 
 
 
-
+.code{
+    justify-content: center;
+}
 
 .cardapio{
     font-family: 'DM Sans', sans-serif;
@@ -264,7 +269,7 @@ section .content p {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 150%;
-    color: hsl(210, 9%, 31%)
+    color: hsl(0, 0%, 100%)
 }
 #cardapio-IMG{
     max-width: 100%;
@@ -280,6 +285,7 @@ section .content p {
     flex-direction: column;
     gap: 3.2rem;
 }
+
 #services .card {
     padding: 2.4rem;
     text-align: left;
@@ -359,6 +365,8 @@ section .content p {
     justify-content: space-between;
     margin-bottom: 20px;
   }
+
+
   
   .content-item img {
     margin-right: 20px;

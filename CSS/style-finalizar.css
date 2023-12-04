@@ -8,64 +8,56 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-:root {
+  }
+  
+  :root {
     --blue: #1d8bd4;
     --white: #fff;
     --dark: #1e1c2a;
-}
-
-body {
-    min-width: 100vh;
-    border: none;
+  }
+  
+  body {
     font-family: 'Inter', sans-serif;
     background-color: var(--white);
-}
-
-body::-webkit-scrollbar {
+  }
+  
+  body::-webkit-scrollbar {
     width: 10px;
-}
-
-body::-webkit-scrollbar-track {
+  }
+  
+  body::-webkit-scrollbar-track {
     background: #06489e34;
-}
-
-body::-webkit-scrollbar-thumb {
+  }
+  
+  body::-webkit-scrollbar-thumb {
     background-color: var(--blue);
     border-radius: 20px;
-}
-
-#logo {
+  }
+  
+  #logo {
     color: var(--blue);
     font-size: 1.7rem;
     font-weight: 600;
-}
-
-#logo span {
+  }
+  
+  #logo span {
     color: var(--dark);
-}
-
-
-#content {
+  }
+  
+  #content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-
-.space {
-    width: 100vw;
+  }
+  
+  .space {
+    width: 100%;
     height: 55px;
-}
-
-
-
-#content-pedido {
-    width: 25%;
+  }
+  
+  #content-pedido {
+    width: 50%;
     min-height: 500px;
     background: #ebf4f5;
     border-radius: 10px;
@@ -75,75 +67,25 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
-}
-
-#content-pedido h1 {
-    color: var(--blue);
-    font-family: 'Black Han Sans', sans-serif;
-    font-size: 30px;
-    margin: 5px 0;
-    letter-spacing: 1px;
-}
-
-.required {
-    background: none;
-    border: 2px solid var(--dark);
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.radio {
-    width: 300px;
-}
-
-.radio input {
-    background: none;
-    border: none;
-    width: 20px;
-    height: 20px;
-    border-radius: none;
-}
-
-#txt_nome, #txt_email ,#txt_cpf, #txt_cep{
-    background-color: var(--white);
-}
-
-#txt_fpgto_submit {
-    border: none;
-    border-radius: 5px;
-    padding: 12px 80px;
-    background: rgb(15, 173, 55);
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-#txt_fpgto_submit:hover {
-    opacity: 0.7;
-}
-
-.span-required {
-    color: rgb(165, 46, 46);
-    font-size: 12px;
-    display: none;
-}
-
-@media (max-width:1100px) {
+  }
+  
+  /* Restante do seu CSS ... */
+  
+  @media (max-width: 1100px) {
     #content-pedido {
-        width: 50%;
+      width: 70%;
     }
-
-}
-
-@media (max-width:785px) {
+  }
+  
+  @media (max-width: 785px) {
     #content-pedido {
-        width: 45%;
+      width: 80%;
     }
-
-}
-@media screen and (max-width: 426px) {
+  }
+  
+  @media screen and (max-width: 426px) {
     #content-pedido {
-        width: 60%;
+      width: 90%;
     }
-}
+  }
+  
