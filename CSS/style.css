@@ -290,7 +290,7 @@ section .content p {
     padding: 2.4rem;
     text-align: left;
     background: rgb(0, 0, 0);
-    border: 1px solid hsl(45, 11%, 86%);
+    border: 1px solid hsl(186, 50%, 89%);
     border-radius: 1rem;
 }
 #services .card h3 {

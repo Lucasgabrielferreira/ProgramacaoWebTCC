@@ -5,6 +5,7 @@ menu.addEventListener('click', () => {
    menu.classList.toggle('ativo');
    NavMenu.classList.toggle('ativo');
 })
+
 //Menu Responsivo
 
 window.sr = ScrollReveal({ reset: true });
