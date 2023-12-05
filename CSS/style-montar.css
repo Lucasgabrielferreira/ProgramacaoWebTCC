@@ -693,8 +693,8 @@ h1 {
   }
   .home {
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    flex-direction: row;
     display: flex;
   }
   .home-text {
