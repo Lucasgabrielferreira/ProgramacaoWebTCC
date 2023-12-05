@@ -72,16 +72,16 @@ ScrollReveal().reveal('.footer-list', {
    duration: 1000,
 })
 
-// ScrollReveal().reavel('.input_group', {
-//    origin: 'left',
-//    distance: '30px',
-//    duration: 1000,
-// })
+ScrollReveal().reavel('.input_group', {
+   origin: 'left',
+   distance: '30px',
+   duration: 1000,
+})
 
-// ScrollReveal().reavel('.titulo-card', {
-//    origin: 'left',
-//    distance: '30px',
-//    duration: 1000,
-// })
+ScrollReveal().reavel('.titulo-card', {
+   origin: 'left',
+   distance: '30px',
+   duration: 1000,
+})
 
 //2 Animação com Scroll reavel 

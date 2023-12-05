@@ -603,7 +603,7 @@ section.module.parallax {
       }
       
       .menu {
-        display: block;
+        display: none;
       }
       
       .menu .bar {
