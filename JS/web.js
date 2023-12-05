@@ -1,19 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
-   const menu = document.querySelector('.menu');
-   const NavMenu = document.querySelector('.nav-menu');
+const menu = document.querySelector('.menu');
+const NavMenu = document.querySelector('.nav-menu');
 
-   menu.addEventListener('click', () => {
-      menu.classList.toggle('ativo');
-      NavMenu.classList.toggle('ativo');
-   });
+menu.addEventListener('click', () => {
+   menu.classList.toggle('ativo');
+   NavMenu.classList.toggle('ativo');
+})
 
-   //Menu Responsivo
-   window.sr = ScrollReveal({ reset: true });
-   ScrollReveal().reveal('.area-1', {
-      origin: 'top',
-      distance: '30px',
-      duration: 1000,
-   });
+//Menu Responsivo
+
+window.sr = ScrollReveal({ reset: true });
+ScrollReveal().reveal('.area-1', {
+   origin: 'top',
+   distance: '30px',
+   duration: 1000,
+
 });
 
 
@@ -72,16 +72,16 @@ ScrollReveal().reveal('.footer-list', {
    duration: 1000,
 })
 
-ScrollReavel().reavel('.input_group', {
-   origin: 'left',
-   distance: '30px',
-   duration: 1000,
-})
+// ScrollReveal().reavel('.input_group', {
+//    origin: 'left',
+//    distance: '30px',
+//    duration: 1000,
+// })
 
-ScrollReavel().reavel('.titulo-card', {
-   origin: 'left',
-   distance: '30px',
-   duration: 1000,
-})
+// ScrollReveal().reavel('.titulo-card', {
+//    origin: 'left',
+//    distance: '30px',
+//    duration: 1000,
+// })
 
 //2 Animação com Scroll reavel 
