@@ -1,19 +1,19 @@
-const menu = document.querySelector('.menu');
-const NavMenu = document.querySelector('.nav-menu');
+document.addEventListener('DOMContentLoaded', () => {
+   const menu = document.querySelector('.menu');
+   const NavMenu = document.querySelector('.nav-menu');
 
-menu.addEventListener('click', () => {
-   menu.classList.toggle('ativo');
-   NavMenu.classList.toggle('ativo');
-})
+   menu.addEventListener('click', () => {
+      menu.classList.toggle('ativo');
+      NavMenu.classList.toggle('ativo');
+   });
 
-//Menu Responsivo
-
-window.sr = ScrollReveal({ reset: true });
-ScrollReveal().reveal('.area-1', {
-   origin: 'top',
-   distance: '30px',
-   duration: 1000,
-
+   //Menu Responsivo
+   window.sr = ScrollReveal({ reset: true });
+   ScrollReveal().reveal('.area-1', {
+      origin: 'top',
+      distance: '30px',
+      duration: 1000,
+   });
 });
 
 

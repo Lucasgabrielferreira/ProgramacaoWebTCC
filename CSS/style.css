@@ -564,6 +564,10 @@ section.module.parallax {
 @media (min-width: 1024px) {
 
     /*GERAL*/
+
+    .ativo {
+        display: block; /* ou qualquer propriedade que faça o menu aparecer */
+     }
     
     body {
         overflow: auto;
@@ -601,7 +605,10 @@ section.module.parallax {
         padding: 18px 20px;
         justify-content: space-around;
     }
-
+    .ativo {
+        display: block; /* ou qualquer propriedade que faça o menu aparecer */
+     }
+    
     .menu {
         display: block;
     }
