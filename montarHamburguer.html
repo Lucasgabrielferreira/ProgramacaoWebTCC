@@ -188,22 +188,36 @@
                     <a href="#" class="footer-link">11 93290-8852</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Burguer@gmail.com</a>
+                    <a href="#" class="footer-link">codeburger@gmail.com
+                    </a>
                 </li>
             </ul>
     
             <div id="footer_subscribe">
                 <h3 class="Footer_tag">Inscreva-se</h3>
-    
+            
                 <p class="p-inscreva-se">Entre com seu E-mail para receber todas as novidades!</p>
-    
+            
                 <div id="input_group">
                     <input type="email" id="email">
-                    <button>
+                    <button onclick="verificarEmail()">
                         <i class="fa-regular fa-envelope"></i>
                     </button>
                 </div>
             </div>
+            
+            <script>
+                function verificarEmail() {
+                    var emailsCadastrados = ['exemplo@email.com', 'outro@email.com'];
+            
+                    var emailInput = document.getElementById('email').value;
+                    if (emailInput.includes('@') && emailInput.includes('.com')) {
+                        alert('Email Cadastrado com sucesso!.');
+                    } else {
+                        alert('Email inválido! Certifique-se de incluir "@" e ".com" no email.');
+                    }
+                }
+            </script>
         </div>
     
         <div id="footer_copyright">&#169Code Burger 2023.</div>
