@@ -692,9 +692,9 @@ h1 {
     font-size: 1.2rem;
   }
   .home {
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
     flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
     display: flex;
   }
   .home-text {
@@ -705,7 +705,10 @@ h1 {
 
   .home-img img {
     /* height: 30vh; */
-    display: none;
+    display: inline;
+    margin-left: 0px; 
+    margin-top: 0px; 
+    padding: 0rem;
   }
 
   .sub-iten h1 {
